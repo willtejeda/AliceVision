@@ -364,7 +364,6 @@ public:
                            bool fixesSigma, float nPixelSizeBehind, bool fillOut,
                            float distFcnHeight);
 
-    void forceTedgesByGradientCVPR11(bool fixesSigma, float nPixelSizeBehind);
     void forceTedgesByGradientIJCV(bool fixesSigma, float nPixelSizeBehind);
 
     int setIsOnSurface();
